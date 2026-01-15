@@ -46,7 +46,7 @@ GitHub Desktop is a user-friendly application that makes it easy to manage your 
 
 **Important:** Install Python before VSCode so that VSCode can automatically detect it!
 
-We'll use Python 3.11 for this course (Python 3.10 or 3.12 will also work).
+We'll use Python 3.11 for this course (Python 3.10 or 3.12 will also work). Download Python 3.11 directly here: [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
 
 ### Check if Python is Already Installed
 
@@ -59,15 +59,15 @@ We'll use Python 3.11 for this course (Python 3.10 or 3.12 will also work).
 ### If Python is Not Installed
 
 **Windows:**
-1. Go to [https://www.python.org/downloads](https://www.python.org/downloads)
-2. Download Python 3.11 (or look for the "Download Python 3.11.x" button)
-3. Run the installer
+1. Go to [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
+2. Scroll down to the "Files" section and download **Windows installer (64-bit)**
+3. Run the downloaded installer
 4. **Important:** Check the box "Add Python to PATH" at the bottom
 5. Click "Install Now"
 
 **macOS:**
-1. Go to [https://www.python.org/downloads](https://www.python.org/downloads)
-2. Download Python 3.11 for macOS (look for "Download Python 3.11.x")
+1. Go to [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
+2. Scroll down to the "Files" section and download **macOS 64-bit universal2 installer**
 3. Open the downloaded `.pkg` file
 4. Follow the installation wizard:
    - Click "Continue" through the introduction screens
