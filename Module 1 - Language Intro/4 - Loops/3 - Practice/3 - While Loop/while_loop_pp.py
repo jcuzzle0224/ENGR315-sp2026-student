@@ -4,8 +4,9 @@
 # an example while loop is given below
 a = 1
 while a != 5:
-    a = a + 1  # pay attention where the counter (this part of the loop) is located
+     # pay attention where the counter (this part of the loop) is located
     print("not 5 yet, but we're at " + str(a))
+    a = a + 1 
 
 # now, move the counter to before the print statement
 # notice how the value of a has changed in the print value,
@@ -24,9 +25,14 @@ while x != 0:
 c = 3
 y = 0
 while y < 5:
-    break
+    c += c
+    y += 1
+    print(str(c))
 
 # it's time to combine both of these concepts.
 # write a loop entirely from scratch that prints out a statement 6 times
 # the counter variable you will use is z
 z = 0
+while z < 6:
+    print("this will print 6 times")
+    z += 1

@@ -27,16 +27,11 @@ nums = generate_random_int_list(max_length, upper_bound)
 evens_list = []
 odds_list = []
 
-"""
-Step 1: Write a FOR loop to iterate through the list nums
-"""
-
-
-"""
-Step 2: Inside the FOR loop, examine the contents of nums. If the
-value is even, place it in the evens_list. If it is odd, place it in the 
-odds_list
-"""
+for i in nums:
+    if i % 2 == 0:
+        evens_list.append(i)
+    else:
+        odds_list.append(i)
 
 print("The evens list contains: ", evens_list)
 print("The odds list contains: ", odds_list)

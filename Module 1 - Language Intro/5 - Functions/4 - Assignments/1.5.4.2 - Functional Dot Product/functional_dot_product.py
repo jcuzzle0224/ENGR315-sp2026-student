@@ -11,6 +11,11 @@ def generate_random_int_list(list_length, upper_bound):
     return randoms
 
 def dot_product(a,b):
+    dot_product = 0 
+    for i in range(len(a)):
+        dot_product += a[i] * b[i]
+    
+    return dot_product
     """
     A custom function to calculate the dot product of two lists
     :param a: List A of values
@@ -18,11 +23,8 @@ def dot_product(a,b):
     :return: The dot product as a value between a * b
     """
 
-    ### YOUR CODE HERE ###
+ 
 
-
-    ### CHANGE THIS RETURN VALUE. IT IS HERE SO THE CODE DOES NOT ERROR
-    return None
 
 """
 Step 1: Generate two "vectors" of equal length but full of random values
