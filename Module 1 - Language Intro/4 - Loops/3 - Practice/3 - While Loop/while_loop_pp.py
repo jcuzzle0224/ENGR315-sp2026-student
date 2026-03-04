@@ -34,5 +34,5 @@ while y < 5:
 # the counter variable you will use is z
 z = 0
 while z < 6:
-    print("this will print 6 times")
+    print(z)
     z += 1
