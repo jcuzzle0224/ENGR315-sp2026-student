@@ -1,0 +1,5 @@
+{
+    "inlineChat.enableV2": true,
+    "inlineChat.notebookAgent": true,
+    "emmet.useInlineCompletions": true
+}
